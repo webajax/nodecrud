@@ -5,11 +5,11 @@ Passo a Passo para instalação(Desenvolvido em ambiente Linux)
 
 A explicação será dada em um ambiente Debian/Linux Ubuntu. 
 
-1 - Faça o clone do projeto na pasta onde desejar e de o seguinte comando para dar permissão no pasta nodecrud: sudo chmod 777 -R nodecrud;
-2 - Instale o node em seu S.O.; (no linux ubuntu instale com o seguinte comando (sem aspas): "sudo apt-get install nodejs" e tb sudo apt-get install npm);
-3 - O banco de dados encontra-se na raiz do sistema "ordercrud.sql" abra o mysql e importe a base; 
-4 - Na raiz do sistema, abra a pasta config/database.js e altere o host do seu mysql o user e o password;
-5 - Após seguir os passos anteriores execute no terminal na raiz do sistema o seguinte comando: 
+1. Faça o clone do projeto na pasta onde desejar e de o seguinte comando para dar permissão no pasta nodecrud: sudo chmod 777 -R nodecrud;
+2. Instale o node em seu S.O.; (no linux ubuntu instale com o seguinte comando (sem aspas): "sudo apt-get install nodejs" e tb sudo apt-get install npm);
+3. O banco de dados encontra-se na raiz do sistema "ordercrud.sql" abra o mysql e importe a base; 
+4. Na raiz do sistema, abra a pasta config/database.js e altere o host do seu mysql o user e o password;
+5. Após seguir os passos anteriores execute no terminal na raiz do sistema o seguinte comando: 
 # nodemon --exec babel-node --presets env index.js
 
 terá que executar algo parecido com isso:
