@@ -12,7 +12,7 @@ A explicação será dada em um ambiente Debian/Linux Ubuntu.
 5. Após seguir os passos anteriores execute no terminal na raiz do sistema o seguinte comando: 
 # nodemon --exec babel-node --presets env index.js
 
-**terá que executar algo parecido com isso:
+**terá que executar algo parecido com isso no TERMINAL:
 [nodemon] 2.0.7 
 [nodemon] to restart at any time, enter `rs`
 [nodemon] watching path(s): *.*
